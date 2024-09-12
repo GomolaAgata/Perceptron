@@ -1,15 +1,16 @@
+
 # Perceptron
-Project realised during Artificial Intelligence Tools course in Polish-Japanese Academy of Information Technology.
 
-About project
+This project was realized during the **Artificial Intelligence Tools** course at the Polish-Japanese Academy of Information Technology.
 
-Perceptron classifies irises into one of three species: Iris setosa, Iris virginica, or Iris versicolor. Program reads iris training data from a text file.
-One class name is renamed to 1, while the others are renamed to 0. The program implements a perceptron with an appropriately sized weight vector, 
-an activation threshold, and methods to modify the weight vector according to the delta rule. 
-Program uses training data to train the perceptron, then checks its accuracy on test data, returning the percentage of correctly classified vectors.
+## About the Project
 
-Program provides a keyboard interface allowing user to input test vectors and receive classification results as output. 
-Additionally, there is a file-based interface where the program reads data from a file and returns the percentage of correctly classified vectors.
+The Perceptron program classifies irises into one of three species: **Iris setosa**, **Iris virginica**, or **Iris versicolor**.
+It uses training data from a text file to train the perceptron model and tests its accuracy on test data. The results show the percentage of correctly classified vectors.
 
-This program includes two perceptron models: the first checks whether a vector belongs to the selected class(in this case- Iris setosa), and if not, 
-the vector is passed to the second perceptron, which checks to which of the remaining classes the vector belongs.
+Key features include:
+- A keyboard interface allowing users to input test vectors and receive classification results.
+- A file-based interface that reads test data from a file and returns the percentage of correctly classified vectors.
+- This program includes two perceptron models:
+  1. The first checks whether a vector belongs to a selected class (in this case, Iris setosa).
+  2. If not, the second perceptron classifies the vector into one of the remaining classes (Iris virginica or Iris versicolor).
